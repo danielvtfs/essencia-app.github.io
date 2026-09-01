@@ -1,5 +1,6 @@
-# Essencia App Pages
+# Dunamis Tech Solutions
 
-Paginas publicas do aplicativo Igreja Essencia.
+Site institucional da Dunamis Tech Solutions e paginas publicas relacionadas aos aplicativos desenvolvidos pela empresa.
 
-- Politica de Privacidade: https://danielvtfs.github.io/essencia-app.github.io/politica-de-privacidade/
+- Site: https://dunamis-apps.com.br/
+- Politica de Privacidade: https://dunamis-apps.com.br/politica-de-privacidade/
