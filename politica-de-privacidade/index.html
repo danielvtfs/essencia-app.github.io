@@ -52,6 +52,9 @@
       <h3>Pr&eacute;-cadastro p&uacute;blico opcional</h3>
       <p>O aplicativo pode oferecer um fluxo opcional para que membros e visitantes enviem dados cadastrais &agrave; secretaria da igreja. Esse envio n&atilde;o cria conta de acesso, n&atilde;o libera a &aacute;rea administrativa e n&atilde;o confirma automaticamente a pessoa como membro ativo.</p>
       <p>As informa&ccedil;&otilde;es enviadas pelo pr&eacute;-cadastro s&atilde;o tratadas como solicita&ccedil;&atilde;o pendente. A secretaria poder&aacute; revisar, corrigir, complementar, aprovar, rejeitar ou vincular a solicita&ccedil;&atilde;o a um cadastro j&aacute; existente.</p>
+      <h3>Recupera&ccedil;&atilde;o de cadastro por e-mail</h3>
+      <p>Quem j&aacute; possui cadastro pode informar seu e-mail para solicitar um c&oacute;digo tempor&aacute;rio de confirma&ccedil;&atilde;o. A resposta apresentada pelo aplicativo &eacute; gen&eacute;rica e n&atilde;o confirma se o endere&ccedil;o informado pertence a um membro.</p>
+      <p>Quando houver exatamente um cadastro ativo e eleg&iacute;vel para o e-mail, o c&oacute;digo ser&aacute; enviado pelo servi&ccedil;o transacional configurado. Depois da confirma&ccedil;&atilde;o, o aplicativo recebe somente o nome de exibi&ccedil;&atilde;o e a foto de perfil quando sua exibi&ccedil;&atilde;o estiver autorizada. Esse fluxo n&atilde;o cria senha, conta administrativa ou acesso &agrave; ficha interna do membro.</p>
 
       <h2>3. Dados pessoais que podem ser tratados</h2>
       <p>Dependendo do uso do aplicativo e da atua&ccedil;&atilde;o administrativa autorizada, podem ser tratados os seguintes dados:</p>
@@ -59,6 +62,7 @@
         <li>dados de usu&aacute;rios administrativos, como nome, e-mail, senha protegida por hash no backend, perfil de acesso, status do usu&aacute;rio, token de sess&atilde;o e registros de auditoria;</li>
         <li>dados de membros cadastrados internamente, como nome, telefone, e-mail, endere&ccedil;o, data de nascimento, datas importantes, status, foto, autoriza&ccedil;&otilde;es de exibi&ccedil;&atilde;o p&uacute;blica e observa&ccedil;&otilde;es administrativas;</li>
         <li>dados enviados voluntariamente em pr&eacute;-cadastro p&uacute;blico de membro ou visitante, como nome, nome de exibi&ccedil;&atilde;o, telefone, e-mail, endere&ccedil;o, bairro, cidade, estado, estado civil, data de nascimento, foto opcional, observa&ccedil;&atilde;o enviada pelo usu&aacute;rio e consentimentos registrados;</li>
+        <li>e-mail informado para recupera&ccedil;&atilde;o do cadastro, identificador do desafio, hash do c&oacute;digo tempor&aacute;rio, quantidade de tentativas, validade, consumo e hash do endere&ccedil;o IP de origem;</li>
         <li>imagens e arquivos enviados por administradores para agenda, comunicados, conte&uacute;dos, dados institucionais, doa&ccedil;&otilde;es e cadastro de membros;</li>
         <li>dados p&uacute;blicos inseridos em agenda, conte&uacute;dos, leituras, categorias, comunicados e notifica&ccedil;&otilde;es;</li>
         <li>logs t&eacute;cnicos e registros de auditoria relacionados a seguran&ccedil;a, autentica&ccedil;&atilde;o, altera&ccedil;&otilde;es administrativas e diagn&oacute;stico de falhas;</li>
@@ -79,6 +83,7 @@
         <li>manter cadastro interno de membros para organiza&ccedil;&atilde;o administrativa da igreja;</li>
         <li>receber e revisar pr&eacute;-cadastros enviados voluntariamente por membros e visitantes;</li>
         <li>facilitar contato da secretaria com pessoas que solicitaram cadastro, atualiza&ccedil;&atilde;o de dados ou acompanhamento institucional;</li>
+        <li>confirmar o controle do e-mail informado e restaurar no aparelho somente o perfil m&iacute;nimo autorizado;</li>
         <li>exibir anivers&aacute;rios e fotos de membros apenas quando houver autoriza&ccedil;&atilde;o registrada;</li>
         <li>enviar, organizar e disponibilizar imagens de eventos, publica&ccedil;&otilde;es e comunica&ccedil;&otilde;es da igreja;</li>
         <li>gerar listagens e exporta&ccedil;&otilde;es administrativas restritas, como planilhas de membros;</li>
@@ -112,6 +117,7 @@
         <li>publica&ccedil;&atilde;o, distribui&ccedil;&atilde;o e revis&atilde;o do aplicativo na Google Play;</li>
         <li>build, empacotamento e distribui&ccedil;&atilde;o t&eacute;cnica do aplicativo por ferramentas como Expo/EAS, quando utilizadas;</li>
         <li>hospedagem de p&aacute;ginas p&uacute;blicas, como esta Pol&iacute;tica de Privacidade, em servi&ccedil;os como GitHub Pages;</li>
+        <li>envio transacional de c&oacute;digos de confirma&ccedil;&atilde;o por e-mail, por meio de servi&ccedil;os como Resend;</li>
         <li>monitoramento, diagn&oacute;stico, logs, seguran&ccedil;a, backup e suporte t&eacute;cnico.</li>
       </ul>
       <p>Esses fornecedores devem tratar dados somente na medida necess&aacute;ria para viabilizar o funcionamento, seguran&ccedil;a, suporte, manuten&ccedil;&atilde;o e cumprimento de obriga&ccedil;&otilde;es relacionadas ao aplicativo.</p>
@@ -129,6 +135,7 @@
         <li><strong>Conte&uacute;dos p&uacute;blicos, agenda, leituras e comunicados:</strong> mantidos enquanto estiverem publicados ou forem necess&aacute;rios para hist&oacute;rico institucional, podendo ser removidos ou arquivados pela administra&ccedil;&atilde;o.</li>
         <li><strong>Cadastro de membros:</strong> mantido enquanto houver rela&ccedil;&atilde;o administrativa, institucional ou necessidade leg&iacute;tima da igreja. A pedido do titular ou respons&aacute;vel legal, dados podem ser corrigidos, inativados, anonimizados ou exclu&iacute;dos, salvo quando houver necessidade de reten&ccedil;&atilde;o por obriga&ccedil;&atilde;o legal, seguran&ccedil;a, auditoria ou exerc&iacute;cio regular de direitos.</li>
         <li><strong>Pr&eacute;-cadastros p&uacute;blicos:</strong> mantidos enquanto estiverem pendentes de revis&atilde;o ou pelo tempo necess&aacute;rio para aprova&ccedil;&atilde;o, rejei&ccedil;&atilde;o, vincula&ccedil;&atilde;o, auditoria, preven&ccedil;&atilde;o de abuso e atendimento de solicita&ccedil;&otilde;es do titular. Solicita&ccedil;&otilde;es rejeitadas ou duplicadas podem ser removidas, anonimizadas ou retidas de forma limitada para seguran&ccedil;a e rastreabilidade.</li>
+        <li><strong>C&oacute;digos de recupera&ccedil;&atilde;o:</strong> expiram em cinco minutos, possuem uso &uacute;nico e s&atilde;o armazenados somente por hash. Os registros t&eacute;cnicos dos desafios podem ser mantidos por at&eacute; 30 dias para seguran&ccedil;a, preven&ccedil;&atilde;o de abuso e diagn&oacute;stico.</li>
         <li><strong>Fotos de membros e autoriza&ccedil;&otilde;es de anivers&aacute;rio:</strong> mantidas enquanto houver autoriza&ccedil;&atilde;o ou necessidade administrativa. Revogada a autoriza&ccedil;&atilde;o, a exibi&ccedil;&atilde;o p&uacute;blica deve ser interrompida em prazo operacional razo&aacute;vel.</li>
         <li><strong>Usu&aacute;rios administrativos:</strong> mantidos enquanto o acesso for necess&aacute;rio. Ap&oacute;s desligamento ou perda de autoriza&ccedil;&atilde;o, o usu&aacute;rio deve ser inativado, mantendo-se registros m&iacute;nimos de auditoria quando necess&aacute;rio.</li>
         <li><strong>Logs e auditoria:</strong> podem ser mantidos por at&eacute; 5 anos para seguran&ccedil;a, rastreabilidade, preven&ccedil;&atilde;o a fraudes, investiga&ccedil;&atilde;o de incidentes e exerc&iacute;cio regular de direitos, salvo prazo maior ou menor exigido por lei ou necessidade espec&iacute;fica.</li>
