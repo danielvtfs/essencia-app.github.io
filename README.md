@@ -4,3 +4,4 @@ Site institucional da Dunamis Tech Solutions e paginas publicas relacionadas aos
 
 - Site: https://dunamis-apps.com.br/
 - Politica de Privacidade: https://dunamis-apps.com.br/politica-de-privacidade/
+- Exclusao de conta: https://dunamis-apps.com.br/exclusao-de-conta/
