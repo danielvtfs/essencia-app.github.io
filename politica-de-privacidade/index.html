@@ -46,16 +46,16 @@
       <p>Se, em situa&ccedil;&otilde;es espec&iacute;ficas, a Igreja Ess&ecirc;ncia definir diretamente as finalidades e meios de tratamento de dados pessoais de seus membros, ela poder&aacute; atuar como controladora ou controladora conjunta desses dados, conforme a realidade operacional e a legisla&ccedil;&atilde;o aplic&aacute;vel.</p>
 
       <h2>2. Como o aplicativo funciona</h2>
-      <p>Na primeira publica&ccedil;&atilde;o Android, o aplicativo &eacute; disponibilizado ao p&uacute;blico sem exigir cadastro ou login para acessar as funcionalidades p&uacute;blicas.</p>
-      <p>O visitante pode navegar por Home, Agenda, Leituras, Fique por dentro, Notifica&ccedil;&otilde;es, Contribua, informa&ccedil;&otilde;es da igreja e demais conte&uacute;dos p&uacute;blicos sem criar conta.</p>
-      <h3>Conta p&uacute;blica opcional</h3>
-      <p>O usu&aacute;rio pode criar uma conta p&uacute;blica opcional como visitante ou membro. A conta utiliza nome de exibi&ccedil;&atilde;o, e-mail verificado e telefone opcional. O cadastro e o login s&atilde;o confirmados por c&oacute;digo tempor&aacute;rio enviado ao e-mail, sem cria&ccedil;&atilde;o de senha.</p>
+      <p>O aplicativo exige uma conta com e-mail verificado e senha para acessar suas funcionalidades. As páginas de privacidade e exclusão de conta permanecem disponíveis na web sem login.</p>
+      <p>Depois de entrar, a pessoa pode usar o aplicativo como visitante e acessar agenda, leituras, comunicados, contribuições e informações da igreja. O cadastro de membro é opcional e depende de análise da secretaria.</p>
+      <h3>Conta do aplicativo</h3>
+      <p>Para criar a conta, são solicitados nome completo, e-mail, celular com DDD, senha e aceite dos Termos de Uso. O e-mail é confirmado por código temporário. A senha é armazenada no servidor somente como hash; o login posterior utiliza e-mail e senha.</p>
       <p>A conta p&uacute;blica mant&eacute;m sess&atilde;o pr&oacute;pria e n&atilde;o concede acesso &agrave; &aacute;rea administrativa. Declarar-se membro n&atilde;o confirma automaticamente o v&iacute;nculo com a igreja. Esse v&iacute;nculo depende de correspond&ecirc;ncia &uacute;nica e segura ou de aprova&ccedil;&atilde;o pela secretaria.</p>
       <h3>Pr&eacute;-cadastro p&uacute;blico opcional</h3>
-      <p>O aplicativo pode oferecer um fluxo opcional para que membros e visitantes enviem dados cadastrais &agrave; secretaria da igreja. Esse envio n&atilde;o cria conta de acesso, n&atilde;o libera a &aacute;rea administrativa e n&atilde;o confirma automaticamente a pessoa como membro ativo.</p>
+      <p>Após entrar na conta, membros e visitantes podem enviar um pré-cadastro opcional à secretaria. Esse envio não libera a área administrativa nem confirma automaticamente a pessoa como membro ativo.</p>
       <p>As informa&ccedil;&otilde;es enviadas pelo pr&eacute;-cadastro s&atilde;o tratadas como solicita&ccedil;&atilde;o pendente. A secretaria poder&aacute; revisar, corrigir, complementar, aprovar, rejeitar ou vincular a solicita&ccedil;&atilde;o a um cadastro j&aacute; existente.</p>
       <h3>Acesso e recupera&ccedil;&atilde;o por e-mail</h3>
-      <p>Quem j&aacute; possui uma conta p&uacute;blica pode informar seu e-mail para solicitar um c&oacute;digo tempor&aacute;rio. As respostas s&atilde;o gen&eacute;ricas para n&atilde;o revelar se um endere&ccedil;o est&aacute; cadastrado. Depois da confirma&ccedil;&atilde;o, uma sess&atilde;o p&uacute;blica &eacute; criada e armazenada de forma segura no aparelho.</p>
+      <p>A recuperação de senha utiliza um código temporário enviado ao e-mail cadastrado. As respostas não revelam se o endereço está cadastrado. Após confirmar o código, a pessoa define uma nova senha. O código também é utilizado para verificar o e-mail na criação da conta.</p>
 
       <h2>3. Dados pessoais que podem ser tratados</h2>
       <p>Dependendo do uso do aplicativo e da atua&ccedil;&atilde;o administrativa autorizada, podem ser tratados os seguintes dados:</p>
@@ -63,8 +63,8 @@
         <li>dados de usu&aacute;rios administrativos, como nome, e-mail, senha protegida por hash no backend, perfil de acesso, status do usu&aacute;rio, token de sess&atilde;o e registros de auditoria;</li>
         <li>dados de membros cadastrados internamente, como nome, telefone, e-mail, endere&ccedil;o, data de nascimento, datas importantes, status, foto, autoriza&ccedil;&otilde;es de exibi&ccedil;&atilde;o p&uacute;blica e observa&ccedil;&otilde;es administrativas;</li>
         <li>dados enviados voluntariamente em pr&eacute;-cadastro p&uacute;blico de membro ou visitante, como nome, nome de exibi&ccedil;&atilde;o, telefone, e-mail, endere&ccedil;o, bairro, cidade, estado, estado civil, data de nascimento, foto opcional, observa&ccedil;&atilde;o enviada pelo usu&aacute;rio e consentimentos registrados;</li>
-        <li>dados da conta p&uacute;blica, como nome de exibi&ccedil;&atilde;o, e-mail verificado, telefone opcional, tipo declarado, status do v&iacute;nculo e identificador do membro quando houver vincula&ccedil;&atilde;o;</li>
-        <li>dados de autentica&ccedil;&atilde;o da conta p&uacute;blica, como identificador do desafio, hash do c&oacute;digo tempor&aacute;rio, tentativas, validade, consumo, hash do endere&ccedil;o IP, hash do token de sess&atilde;o e prazo de expira&ccedil;&atilde;o;</li>
+        <li>dados da conta do aplicativo, como nome completo, e-mail verificado, celular, hash da senha, versão e data do aceite dos Termos de Uso, estado do cadastro e identificador do membro quando houver vínculo;</li>
+        <li>dados de autenticação, como desafios, hashes de códigos temporários e de tokens de renovação, tentativas, validade, consumo, hashes de IP, sessões e registros de reutilização de tokens;</li>
         <li>imagens e arquivos enviados por administradores para agenda, comunicados, conte&uacute;dos, dados institucionais, doa&ccedil;&otilde;es e cadastro de membros;</li>
         <li>dados p&uacute;blicos inseridos em agenda, conte&uacute;dos, leituras, categorias, comunicados e notifica&ccedil;&otilde;es;</li>
         <li>logs t&eacute;cnicos e registros de auditoria relacionados a seguran&ccedil;a, autentica&ccedil;&atilde;o, altera&ccedil;&otilde;es administrativas e diagn&oacute;stico de falhas;</li>
@@ -127,8 +127,8 @@
       <p>A DUNAMIS TECH SOLUTIONS n&atilde;o vende dados pessoais tratados pelo aplicativo.</p>
 
       <h2>9. Seguran&ccedil;a dos dados</h2>
-      <p>A &aacute;rea administrativa exige login interno e perfis de acesso autorizados. O aplicativo armazena o token administrativo de forma segura no dispositivo, e o backend valida permiss&otilde;es por perfil antes de permitir a&ccedil;&otilde;es administrativas.</p>
-      <p>A conta p&uacute;blica utiliza c&oacute;digos tempor&aacute;rios de uso &uacute;nico e sess&atilde;o separada da administra&ccedil;&atilde;o. O c&oacute;digo e o token ficam armazenados somente por hash no backend, e o token da sess&atilde;o &eacute; protegido no dispositivo.</p>
+      <p>A área administrativa exige login interno e perfis autorizados. O token administrativo é mantido apenas na memória durante o uso do app, vinculado à conta atual, e é descartado ao sair da conta ou encerrar o aplicativo. O backend valida as permissões antes de permitir ações administrativas.</p>
+      <p>A conta do aplicativo usa e-mail e senha, com verificação de e-mail no cadastro e recuperação de senha por código de uso único. O app mantém o token de renovação no armazenamento seguro do aparelho e o token de acesso de curta duração em memória. O servidor guarda hashes dos tokens de renovação, faz sua rotação e pode revogar sessões.</p>
       <p>S&atilde;o recomendadas e/ou adotadas medidas como HTTPS em produ&ccedil;&atilde;o, senhas protegidas por hash, segredos de autentica&ccedil;&atilde;o fora do c&oacute;digo-fonte, controle de acesso por perfil, auditoria de a&ccedil;&otilde;es administrativas, backups, limita&ccedil;&atilde;o de permiss&otilde;es e cuidado com planilhas exportadas.</p>
       <p>Embora sejam adotadas medidas de seguran&ccedil;a razo&aacute;veis, nenhum sistema &eacute; totalmente livre de riscos. Em caso de incidente relevante envolvendo dados pessoais, ser&atilde;o avaliadas as medidas cab&iacute;veis conforme a legisla&ccedil;&atilde;o aplic&aacute;vel.</p>
 
